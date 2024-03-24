@@ -10,7 +10,7 @@ public class FirstTestngClass {
     public WebDriver driver ;
   @Test
   public void f() {
-	  System.out.println("launching chrome browser"); 
+	  System.out.println("launching chrome browser  @@@"); 
       driver = new ChromeDriver();
       driver.get(baseUrl);
       String expectedTitle = "Welcome: Mercury Tours";

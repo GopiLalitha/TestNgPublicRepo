@@ -17,6 +17,7 @@ public class SampleTestngClass {
   }
   @BeforeMethod
   public void beforeMethod() {
+	  System.out.println("Check webhooks");
   }
 
   @AfterMethod
